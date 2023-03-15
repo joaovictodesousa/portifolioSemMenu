@@ -297,8 +297,8 @@ font-size: 20px;
     /* -- projetos  --  */
 
     .projetos{
-        width: 100%;
-        margin: 5% 5%;
+        width: 120%;
+        margin: 5% 20%;
         justify-content: center;
     }
     
