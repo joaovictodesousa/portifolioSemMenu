@@ -265,6 +265,9 @@ font-size: 20px;
 }
 
 @media (max-width: 1200px) {
+    body{
+        margin: 5%;
+    }
     .foto_lider{
         width: 45%;
         border-radius: 25px;
@@ -292,10 +295,6 @@ font-size: 20px;
     }
 
     /* -- projetos  --  */
-
-    .apresentacao__conteudo_projetos{
-        
-    }
     
     .titulo{
         text-align: center;
