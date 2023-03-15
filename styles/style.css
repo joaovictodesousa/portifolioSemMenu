@@ -266,7 +266,8 @@ font-size: 20px;
 
 @media (max-width: 1200px) {
     .apresentacao{
-        margin: 5%;
+        flex-direction: column-reverse;  /* Colocar a foto na linha de texto, ai coloquei o reverse pra imagem sair em cima pq ela tava em baixo */
+        padding: 5%;
     }
     .foto_lider{
         width: 45%;
@@ -278,10 +279,7 @@ font-size: 20px;
     .cabecalho__menu{
         justify-content: center;
     }
-    .apresentacao{
-        flex-direction: column-reverse;  /* Colocar a foto na linha de texto, ai coloquei o reverse pra imagem sair em cima pq ela tava em baixo */
-        padding: 5%;
-    }
+   
     .apresentacao__conteudo{
         width: auto; /* serve para usar todo o espaço menos o do 5% do padding */
     }
