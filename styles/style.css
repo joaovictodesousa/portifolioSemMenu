@@ -295,6 +295,10 @@ font-size: 20px;
     }
 
     /* -- projetos  --  */
+
+    .projetos{
+        margin: 5%;
+    }
     
     .titulo{
         text-align: center;
