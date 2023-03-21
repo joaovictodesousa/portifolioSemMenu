@@ -31,6 +31,11 @@ body{
     display: flex;
 
 }
+.logo_tipo {
+    width: 30%;
+    margin: 0 13em;
+    position: relative;
+}
 
 .cabecalho_menu_link{
     color: var(--cor-primaria);
@@ -278,6 +283,9 @@ font-size: 20px;
     }
     .cabecalho__menu{
         justify-content: center;
+    }
+    .logo_tipo {
+        display: none;
     }
    
     .apresentacao__conteudo{
