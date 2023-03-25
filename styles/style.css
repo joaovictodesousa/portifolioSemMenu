@@ -269,7 +269,7 @@ font-size: 20px;
     width: 120%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
     .apresentacao{
         flex-direction: column-reverse;  /* Colocar a foto na linha de texto, ai coloquei o reverse pra imagem sair em cima pq ela tava em baixo */
         padding: 5%;
